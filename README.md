@@ -1,12 +1,12 @@
-# MedVKAN
+# DRC-MKNet
 
-MedVKAN: Efficient Feature Extraction with Mamba and KAN for Medical Image Segmentation
+DRC-MKNet: Integrating Dual-Region Mamba and Conv-Enhanced KAN for Medical Image Segmentation
 
 ## Environment Install
 
 ```shell
-conda create -n medvkan python=3.10
-conda activate medvkan
+conda create -n drcmknet python=3.10
+conda activate drcmknet
 
 pip install torch==2.0.1 torchvision==0.15.2
 pip install causal-conv1d==1.1.1
@@ -14,14 +14,14 @@ pip install mamba-ssm==2.2.2
 pip install torchinfo timm numba
 ```
 ```shell
-git clone https://github.com/beginner-cjh/MedVKAN
-cd MedVKAN/medvkan
+git clone https://github.com/beginner-cjh/DRC-MKNet
+cd DRCMKNet/drcmknet
 pip install -e .
 ```
 
 ## Datasets
 
-You can download the AbdomenMRI / Microscopy / BUSI / ACDC / COVID-19 dataset from the [link](https://drive.google.com/drive/folders/1CH2OWQpd4Sa-BES6oFLRC469gTxf6QUO?usp=drive_link)
+You can download the AbdomenMRI / Microscopy / BUSI / ACDC / PH2 dataset from the [link](https://drive.google.com/drive/folders/1CH2OWQpd4Sa-BES6oFLRC469gTxf6QUO?usp=drive_link)
 
 Place in the data folder (../data/nnUNet_raw) . 
 
@@ -79,7 +79,7 @@ Using the following command to train & evaluate MedVKAN
 ```shell
 bash scripts/train_{Datasets}.sh nnUNetTrainerMedVKAN
 ```
-Datasets can be AbdomenMR / BUSI / Microscopy / ACDC / COVID , such as:
+Datasets can be AbdomenMR / BUSI / Microscopy / ACDC / PH2 , such as:
 ```shell
 #Microscopy Dataset
 bash scripts/train_Microscopy.sh nnUNetTrainerMedVKAN
@@ -94,8 +94,8 @@ We thank the authors of [nnU-Net](https://github.com/MIC-DKFZ/nnUNet), [Mamba](h
 ## Citation
 
 ```
-@article{MedVKAN,
-    title={MedVKAN: Efficient Feature Extraction with Mamba and KAN for Medical Image Segmentation},
+@article{DRC-MKNet,
+    title={DRC-MKNet: Integrating Dual-Region Mamba and Conv-Enhanced KAN for Medical Image Segmentation},
     author={},
     journal={},
     year={2025}
