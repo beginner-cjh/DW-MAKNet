@@ -85,7 +85,7 @@ Datasets can be AbdomenMR / BUSI / Microscopy / ACDC / PH2 , such as:
 bash scripts/train_Microscopy.sh nnUNetTrainerMedVKAN
 ```
 
-You can download our model checkpoints [here](https://drive.google.com/drive/folders/1Krgcbz31IA2QfiXtjRKALvl40XMjejXc?usp=drive_link).
+You can download our model checkpoints [here](https://drive.google.com/drive/folders/1cjdq8REfnNMFTcmeTdoxFsE3jaBtp7Pg?usp=drive_link).
 
 ## Acknowledgements
 
