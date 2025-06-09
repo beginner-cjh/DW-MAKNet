@@ -1,4 +1,3 @@
-# V1 can load pretrained model of VSS Block
 
 MAMBA_MODEL=$1
 PRED_OUTPUT_PATH="data/nnUNet_results/Dataset123_PH2/${MAMBA_MODEL}__nnUNetPlans__2d/pred_results"
