@@ -1,12 +1,12 @@
-# DRC-MKNet
+# DW-MAKNet
 
-DRC-MKNet: Integrating Dual-Region Mamba and Conv-Enhanced KAN for Medical Image Segmentation
+DW-MAKNet: Integrating Dual-Window Mamba and Convolution-Augmented KAN for Medical Image Segmentation
 
 ## Environment Install
 
 ```shell
-conda create -n drcmknet python=3.10
-conda activate drcmknet
+conda create -n dwmaknet python=3.10
+conda activate dwmaknet
 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install causal-conv1d==1.1.1
@@ -14,8 +14,8 @@ pip install mamba-ssm==2.2.2
 pip install torchinfo timm numba
 ```
 ```shell
-git clone https://github.com/beginner-cjh/DRC-MKNet
-cd DRCMKNet/drcmknet
+git clone https://github.com/beginner-cjh/DW-MAKNet
+cd DWMAKNet/dwmaknet
 pip install -e .
 ```
 
@@ -74,15 +74,15 @@ Specifically, for the ACDC dataset you also need to change the patch size（This
 
 ## Training & Evaluation
 
-Using the following command to train & evaluate DRCMKNet
+Using the following command to train & evaluate DWMAKNet
 
 ```shell
-bash scripts/train_{Datasets}.sh nnUNetTrainerDRCMKNet
+bash scripts/train_{Datasets}.sh nnUNetTrainerDWMAKNet
 ```
 Datasets can be AbdomenMR / BUSI / Microscopy / ACDC / PH2 , such as:
 ```shell
 #Microscopy Dataset
-bash scripts/train_Microscopy.sh nnUNetTrainerDRCMKNet
+bash scripts/train_Microscopy.sh nnUNetTrainerDWMAKNet
 ```
 
 You can download our model checkpoints [here](https://drive.google.com/drive/folders/1cjdq8REfnNMFTcmeTdoxFsE3jaBtp7Pg?usp=drive_link).
@@ -94,8 +94,8 @@ We thank the authors of [nnU-Net](https://github.com/MIC-DKFZ/nnUNet), [Mamba](h
 ## Citation
 
 ```
-@article{DRC-MKNet,
-    title={DRC-MKNet: Integrating Dual-Region Mamba and Conv-Enhanced KAN for Medical Image Segmentation},
+@article{DW-MAKNet,
+    title={DW-MAKNet: Integrating Dual-Window Mamba and Convolution-Augmented KAN for Medical Image Segmentation},
     author={},
     journal={},
     year={2025}
