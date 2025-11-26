@@ -1,6 +1,6 @@
 # DW-MAKNet
 
-DW-MAKNet: Integrating Dual-Window Mamba and Convolution-Augmented KAN for Medical Image Segmentation
+Enhanced Medical Image Segmentation via Dual-Window State-Space Encoding and Convolution-Augmented KAN
 
 ## Environment Install
 
@@ -95,9 +95,9 @@ We thank the authors of [nnU-Net](https://github.com/MIC-DKFZ/nnUNet), [Mamba](h
 
 ```
 @article{DW-MAKNet,
-    title={DW-MAKNet: Integrating Dual-Window Mamba and Convolution-Augmented KAN for Medical Image Segmentation},
+    title={Enhanced Medical Image Segmentation via Dual-Window State-Space Encoding and Convolution-Augmented KAN},
     author={},
-    journal={},
+    journal={submitted to The Visual Computer},
     year={2025}
 }
 ```
