@@ -96,8 +96,8 @@ We thank the authors of [nnU-Net](https://github.com/MIC-DKFZ/nnUNet), [Mamba](h
 ```
 @article{DW-MAKNet,
     title={Enhanced Medical Image Segmentation via Dual-Window State-Space Encoding and Convolution-Augmented KAN},
-    author={},
-    journal={submitted to The Visual Computer},
-    year={2025}
+    author={Jinhao Chen, Chao Ma, Jinping Chen, Zhong Li, Zhaoxi Fang, Keli Hu, Guanghua He, Hancan Zhu},
+    journal={The Visual Computer},
+    year={2026}
 }
 ```
